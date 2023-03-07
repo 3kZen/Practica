@@ -1,0 +1,128 @@
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    /*Tamaños*/
+    width: 100%;
+    height: 300px;
+    /*Bordes*/
+    
+    /*Bordes redondos*/
+    border-radius: 15px;
+    
+    display: flex;
+    /*Horizontal*/
+    justify-content: center;
+    /*Vertical*/
+    align-items: center;
+    background-color: #4d1515;
+
+}
+
+.header2{
+
+    width: 90%;
+    height: 200px;
+    border: black solid 10px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.navegacion{
+    width: 200px;
+    height: 50px;
+    
+    border-radius: 15px;
+    /*color de letras*/
+    color: rgb(255, 255, 255);
+    background-color: #000001;
+    /* centrar texto*/
+    text-align: center;
+    /*centrar texto verticalmente*/
+    align-items: center;
+    /*tipografia*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main{
+     /*Tamaños*/
+     width: 100%;
+     height: 500px;
+     /*Bordes*/
+     
+     /*Bordes redondos*/
+     border-radius: 15px;
+     
+     display: flex;
+     /*Horizontal*/
+     justify-content: center;
+     /*Vertical*/
+     align-items: center;
+     
+    
+}
+
+.main1{
+    width: 60%;
+    height: 100%;
+    
+    padding: 20px;
+
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.main2{
+    width: 40%;
+    height: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.articulo{
+    width: 100%;
+    height: 45%;
+    
+    border-radius: 15px;
+}
+
+.secion{
+    width: 100%;
+    height: 45%;
+    
+    border-radius: 15px;
+}
+
+.articulo , .secion , .header2 , .aside , .footerpadre .footer{
+    background-color: #4d1515;
+}
+
+.aside{
+    width: 90%;
+    height: 90%;
+   
+    border-radius: 15px;
+}
+
+.footerpadre{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer{
+    border-radius: 15px;
+    
+    border-radius: 15px;
+    width: 100%;
+    height: 90%;
+}

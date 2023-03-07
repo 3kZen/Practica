@@ -1,0 +1,104 @@
+.caja{
+    width: 700px;
+    height: 450px;
+    border: red solid 10px;
+    background-color: black solid;
+
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 10px;
+    gap: 10px;
+}
+
+.cajahijo{
+    width: 100px;
+    height: 100px;
+    border: black solid 10px;
+    background-color: brown;
+    /* TOP, RIGHT, BOTTOM, LEFT*/
+    /*margin: 10px 0 0 10px;*/
+    
+}
+
+.cajahijo2{
+    width: 100px;
+    height: 100px;
+    border: black solid 10px;
+    background-color: brown;
+    
+}
+
+.cajahijo4{
+    width: 100px;
+    height: 100px;
+    border: black solid 10px;
+    background-color: brown;
+    
+}
+
+.cajahijo5{
+    width: 100px;
+    height: 100px;
+    border: black solid 10px;
+    background-color: brown;
+    
+}
+
+.cajahijo6{
+    width: 100px;
+    height: 100px;
+    border: black solid 10px;
+    background-color: brown;
+    
+}
+
+.cajahijo7{
+    width: 100px;
+    height: 100px;
+    border: black solid 10px;
+    background-color: brown;
+    
+}
+
+.cajahijo8{
+    width: 100px;
+    height: 100px;
+    border: black solid 10px;
+    background-color: brown;
+    
+}
+
+.cajahijo9{
+    width: 100px;
+    height: 100px;
+    border: black solid 10px;
+    background-color: brown;
+    
+}
+
+.cajahijo10{
+    width: 100px;
+    height: 100px;
+    border: black solid 10px;
+    background-color: brown;
+    
+}
+
+.boton{
+    width: 200px;
+    height: 200px;
+    background: brown;
+    border: none;
+    background-color: brown;
+    border-radius: 15px;
+    font-size: 200%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 100px;
+    cursor: pointer;
+    transition: 2s;
+}
+
+.boton:hover{
+    background-color: black;
+}

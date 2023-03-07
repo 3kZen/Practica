@@ -1,0 +1,16 @@
+.cabeza{
+    width: 600px;
+    height: 600px;
+    border: red solid 1px;
+}
+
+.hijoc1{
+    width: 100%;
+    height: 100%;
+}
+
+.hijoc1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

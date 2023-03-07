@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.headerP{
+    width: 80%;
+    box-sizing: content-box;
+
+
+ /* naturaleza del padre*/
+    display: flex;
+    /* distribuir contenido (centrado o abajo*/
+    justify-content: space-between;
+    /*Hace que cuando no haya suficiente espacio se cree una linea nueva (para escalar)*/
+    flex-wrap: wrap;
+
+    margin: 0 auto;
+}
+
+.fucsia{
+    width: 300px;
+    /* definimos el limite de tamaño que van a tener ciertas cajas*/
+    /*maxima capacidad que puede ocupar un*/
+    min-width: 30%;
+    /* max-width*/
+    height: 100px;
+    background: #ff00d4;
+    border-radius: 15px;
+}
+
+.amarillo{
+    width: 500px;
+    min-width: 50%;
+    height: 100px;
+    background: #ffe100;
+    border-radius: 15px;
+}
+
+.contenedorP{
+    width: 80%;
+    height: 500px;
+    box-sizing: content-box;
+
+    display: flex;
+   justify-content: wrap;
+    flex-wrap: wrap;
+    justify-content: stretch;
+    gap: 10px;
+
+    margin: 0 auto;
+    margin-top: 20px;
+
+    
+}
+
+.caja1{
+    width: 300px;
+    
+    flex-grow: 1;
+    background: red;
+    border-radius: 15px;
+}
+.caja2{
+    width: 300px;
+
+    background: blue;
+    flex-grow: 1;
+    border-radius: 15px;
+}
+.caja3{
+    width: 300px;
+
+    background: green;
+    flex-grow: 1;
+    border-radius: 15px;
+}
+
+.cuadro{
+    width: 60%;
+    height: 400px;
+
+    background-color: red solid 1px;
+    background: red;
+    /* Cuando es un solo elemento se puede centrar*/
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 15px;
+    
+}
